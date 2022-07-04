@@ -1,9 +1,16 @@
-import React from 'react'
+// Component(s)
+import PageTitle from "../../components/PageTitle/Index";
+import Layout from "../../components/Layout/Index";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <Layout>
+      <>
+        <PageTitle title="Home" />
+        Home
+      </>
+    </Layout>
+  );
+};
 
-export default Home
+export default Home;
